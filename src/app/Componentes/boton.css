@@ -1,0 +1,38 @@
+/* Estilos para el modo claro */
+.navbar.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Estilos para el modo oscuro */
+  .navbar.dark {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  /* Estilos para el botón de cambio de tema */
+  .theme-toggle {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+/* Estilos para el botón de cambio de tema */
+.theme-toggle {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: right 0.3s ease;
+  }
+  
+  .theme-toggle.dragging {
+    right: calc(20px + 200px); /* Ancho del botón + espacio de arrastre */
+  }
+
+  

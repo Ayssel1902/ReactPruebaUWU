@@ -1,0 +1,42 @@
+/* registros.css */
+
+.table-container {
+    width: 100%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #030303;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #000000;
+  }
+  
+  tr:hover {
+    background-color: #ff0000;
+  }
+  
+  td a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  td a:hover {
+    text-decoration: underline;
+  }
+  

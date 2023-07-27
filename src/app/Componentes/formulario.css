@@ -1,0 +1,101 @@
+.formulario {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formulario input,
+  .formulario select,
+  .formulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario button {
+    background-color: #4caf50;
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .formulario button:hover {
+    background-color: #45a049;
+  }
+  
+  .formulario span {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .formulario .checkbox-group {
+    margin-bottom: 10px;
+  }
+  
+  .formulario .checkbox-group label {
+    margin-right: 10px;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .formulario input[type='text'],
+  .formulario input[type='email'],
+  .formulario input[type='password'],
+  .formulario select,
+  .formulario textarea {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .formulario input[type='text']:focus,
+  .formulario input[type='email']:focus,
+  .formulario input[type='password']:focus,
+  .formulario select:focus,
+  .formulario textarea:focus {
+    outline: none;
+    border-color: #ccc;
+  }
+  
+  .error {
+    border-color: red;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .formulario button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .formulario button:hover {
+    background-color: #0056b3;
+  }
+  
