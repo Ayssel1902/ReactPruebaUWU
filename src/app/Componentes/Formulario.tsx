@@ -27,7 +27,7 @@ export const Formulario = () => {
       return;
     }
 
-    // Realiza más validaciones para los otros campos si es necesario
+  
 
     const p: Persona = {
       nombre,
@@ -55,7 +55,7 @@ export const Formulario = () => {
     }
   };
 
-  // Implementa otras funciones para validar los otros campos si es necesario
+
 
   return (
     <form className="formulario">

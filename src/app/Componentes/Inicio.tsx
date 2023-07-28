@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Saludo = () => {
+const inicio = () => {
   return (
     <div style={{ textAlign: 'center' }}>
       <h2>Título del Video</h2>
@@ -20,4 +20,4 @@ const Saludo = () => {
   );
 };
 
-export default Saludo;
+export default inicio;

@@ -29,6 +29,12 @@ export const Header = () => {
         <li className="navbar-item">
           <Link to={"/Cursos"} className="navbar-link">Cursos</Link>
         </li>
+        <li className="navbar-item">
+          <Link to={"/Nosotros"} className="navbar-link">Sobre Nosotros</Link>
+        </li>
+        <li className="navbar-item">
+          <Link to={"/Empresas"} className="navbar-link">Empresas</Link>
+        </li>
       </ul>
       <button className={`theme-toggle ${isDarkMode ? 'dark' : ''}`} onClick={toggleTheme}>
         {isDarkMode ? 'Modo Claro' : 'Modo Oscuro'}

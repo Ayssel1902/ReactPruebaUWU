@@ -1,0 +1,24 @@
+.conocenos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .round-image {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    cursor: pointer; 
+  }
+  
+  .expanded {
+    width: 250px; 
+  }
+  
+  .expanded + p {
+    display: none; 
+  }
+  
+  

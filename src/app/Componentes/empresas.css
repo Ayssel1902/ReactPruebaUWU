@@ -1,0 +1,19 @@
+.empresas-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .empresa-card {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .empresa-card img {
+    width: 100%; /* Ajusta el tamaño de la imagen */
+    border-radius: 5px;
+  }
+  
+  .empresa-card h2 {
+    margin-top: 10px;
+  }
